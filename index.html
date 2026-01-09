@@ -1,0 +1,11 @@
+import pandas as pd
+import numpy as np
+#sample dataset
+data={
+    'Age':[25,27,np.nan,100,30,27],
+    'salary':[50000,52000,51000,50500,52000,52000],
+    'city':['A','B','B','A','A','A']
+    }
+df=pd.DataFrame(data)
+print("original data:")
+print(df)
